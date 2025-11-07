@@ -16,7 +16,3 @@ function integerToRoman(num) {
   return roman;
 }
 
-// Examples:
-console.log(integerToRoman(14)); 
-console.log(integerToRoman(1994)); 
-console.log(integerToRoman(3));   
