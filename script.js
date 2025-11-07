@@ -3,8 +3,8 @@ function integerToRoman(num) {
     throw new Error('Input must be an integer between 1 and 3999');
   }
 
-  const values  = [1000, 900, 500, 400, 100,  90,   50,   40,   10,   9,    5,   4,    1];
-  const symbols = ['M',  'CM', 'D',  'CD', 'C', 'XC', 'L',  'XL',  'X',  'IX', 'V', 'IV', 'I'];
+  const values  = [1000, 900, 500, 400, 100,  90,   50,   40, 14,  10,   9,    5,   4,    1];
+  const symbols = ['M',  'CM', 'D',  'CD', 'C', 'XC', 'L',  'XL', XIV, 'X',  'IX', 'V', 'IV', 'I'];
 
   let roman = '';
   for (let i = 0; i < values.length; i++) {
